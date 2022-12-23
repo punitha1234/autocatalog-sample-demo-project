@@ -1,0 +1,20 @@
+#%Catalog Descriptor 1.0
+triggerConditions :
+    branches :
+       - main
+versionStrategyConditions :
+        patchIncrease :
+          branches :
+            - main        
+projects:
+  - assetId: flight-service-api
+    version: 1.0.0
+    apiVersion: v1
+    tags:
+    - flights
+    - book-filghts
+    contact:
+      name: 'Puneetha S'
+      email: 'puneetha.s@capgemini.com'
+    documentation:
+        Home: sample-doc.md
