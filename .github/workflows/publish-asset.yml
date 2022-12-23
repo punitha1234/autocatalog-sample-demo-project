@@ -20,7 +20,7 @@ jobs:
         npm install -g api-catalog-cli@latest
     - name: Create Descriptor file
       run: |   
-        api-catalog publish-asset -d catalog.yaml
+        api-catalog create-descriptor -d catalog.yaml
     - name: Publish to Exchange
       env:
         PLATFORM_ORGID: ${{secrets.PLATFORM_ORGID}}
